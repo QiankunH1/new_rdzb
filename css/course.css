@@ -1,0 +1,126 @@
+
+.all{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    /* padding-top: 90px; */
+}
+/* 头部导航样式 */
+.nav{
+    width: 100%;
+    height: 90px;
+    /* margin: 0 auto; */
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    /* box-shadow:0px -1px 1px rgb(160, 160, 160) inset; */
+}
+
+.mc{
+    position: absolute;
+    height: 90px;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: .1;
+    filter:alpha(opacity=10);
+    z-index: 98;
+}
+.head{
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    z-index: 99;
+    
+}
+.logo{
+    margin-left: 100px;
+    line-height: 90px;
+}
+.head ul{
+    width: 830px;
+}
+
+.nav ul a{
+    float: left;
+    height: 90px;
+    text-align: center; 
+    padding: 0 15px;
+}
+.nav ul a p{
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 0 6px;
+    transition: all .1s linear;
+}
+.head ul a div{
+    height: 6px;
+    border-radius: 6px;
+    width: 100%;
+    transition: all .1s linear;
+    
+}
+.nav ul a p.active{
+    color: #fff;
+}
+.head ul a div.active{
+    background-color: #fff;
+}
+/* banner */
+.banner{
+    width: 100%;
+    height: 410px;
+    background:url("../img/course_banner.png") no-repeat center;
+    overflow: hidden;
+}
+/* foot模块 */
+.list_2{
+    width: 100%;
+    min-width: 1200px;
+    height: 246px;
+    overflow: hidden;
+    background-color: #333;
+}
+.list_2 .foot{
+    width: 1200px;
+    margin: 0 auto;
+    height: 246px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #ddd;
+}
+.list_2 .foot .a_wrap{
+    margin-top: 40px;
+}
+.list_2 .foot a{
+    color: #ddd;
+    display:inline-block;
+    margin-right: 60px;
+}
+.list_2 .foot a:hover{
+    color: #ffc15f;
+}
+.list_2 .foot .foot_line{
+    width: 100%;
+    height: 1px;
+    background-color: #666;
+    margin-top: 30px;
+}
+.list_2 .foot .mt30{
+    margin-top: 30px;
+}
+.list_2 .foot .mt20{
+    margin-top: 20px;
+}
+.list_2 .foot .mt20 a{
+    color: #fff;
+    display:inline-block;
+    margin-right: 0px;
+}
+

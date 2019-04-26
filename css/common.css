@@ -1,0 +1,49 @@
+/* 清除默认样式 */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-width: 1200px;
+    overflow: auto;
+    text-align: center;
+    color: #333;
+   /* letter-spacing:1px; */
+   font-family: 
+   "Microsoft YaHei",
+   "黑体",
+   "宋体",sans-serif;
+}
+
+ul,ol{list-style-type:none;} 
+a{text-decoration:none;} 
+img {
+    border: none;
+    vertical-align: middle;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+    }
+      
+    .clearfix {
+    zoom: 1;
+    }
+.inline{
+    display: inline;
+}
+.fl{
+    float: left
+}
+
+.fr{
+    float: right
+}
+.wth1200{
+    width: 1200px;
+    margin: 0 auto;
+}
