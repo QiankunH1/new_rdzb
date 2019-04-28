@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/course.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/animated.css">
     <!-- <link rel="stylesheet" href="./layui/css/layui.css" media="all"> -->
     <title>融道知变</title>
 </head>
@@ -14,46 +15,86 @@
     <div class="all">
         <!-- 导航蒙层 -->
         <div class="mc"></div>
+
         <!-- 导航 -->
         <div class="nav">
             <div class="head clearfix">
                 <div class="logo fl">
-                    <img src="./img/white_logo.png" alt="融道知变">
+                    <img src="./img/logo.png" alt="融道知变">
                 </div>
                 <ul class="fr clearfix">
-                    <a href="http://www.rdzbnx.com/">
+                    <a href="./index.html/">
                         <p>首页</p>
-                        <div class="line"></div>
+
                     </a>
                     <a href="./process.html">
                         <p>内训流程</p>
-                        <div class="line"></div>
+
                     </a>
                     <a href="./course.html">
                         <p class="active">内训课程</p>
-                        <div class="line active"></div>
+
                     </a>
                     <a href="./quality.html">
                         <p>内训质量保障</p>
-                        <div class="line"></div>
+
                     </a>
                     <a href="./user.html">
-                        <p>我们的客户</p>
-                        <div class="line"></div>
+                        <p>客户服务</p>
                     </a>
                     <a href="./about.html">
                         <p>关于我们</p>
-                        <div class="line"></div>
                     </a>
                 </ul>
             </div>
         </div>
+
+
         <!-- banner模块 -->
         <div class="banner"></div>
+
+
         <!-- 内容模块 -->
+        <div class="list_1">
+            <div class="wth1200 content">
+                <h3>凭什么是领军品牌</h3>
+                <div class="h_line"></div>
+                <div class="clearfix item_wrap">
+                    <div class="item">
+                        <img src="./img/index/1-01.png" alt="">
+                        <h4>科学完善的内训流程</h4>
+                        <p>内训企业在一周内用中国企业财务管理大数据服务中心提供的大数据检测工具对自己企业10个方面的经营情况进行检测评估，充分了解自己企业在行业竞争中的地位和存在的问题。</p>
+                        <a class="btn">详情>></a>
+                    </div>
+                    <div class="s_line"></div>
+                    <div class="item">
+                        <img src="./img/index/1-02.png" alt="">
+                        <h4>与众不同的质量保障</h4>
+                        <p>建立个人学习账号和学分累计制度，畅通继续教育终身学习通道， 制定国家资历框架，推进非学历教育学习成果、职业技能等级学分转换互认，完善学习成果认证制度。</p>
+                        <a class="btn">详情>></a>
+                    </div>
+                    <div class="s_line"></div>
+                    <div class="item">
+                        <img src="./img/index/1-03.png" alt="">
+                        <h4>独特有效的内训课程</h4>
+                        <p>2019年新年伊始，国家先后出台了教育方面的两个重磅文件：国务院《国家职业教育改革实施方案》和中共中央、国务院《中国教育现代化2035》。两个文件为财务管理继续教育指明了方向。</p>
+                        <a class="btn mt79">详情>></a>
+                    </div>
+                    <div class="s_line"></div>
+                    <div class="item">
+                        <img src="./img/index/1-04.png" alt="">
+                        <h4>优质高效的客户服务</h4>
+                        <p>中国企业财务管理商学院秉承视野、创新、笃行的教育理念， 致力于为大中型企业、上市公司培养具有全球视野的财务管理应 用型中高级人才，并根据财务管理人才的不同层次，开展有针对性的培训工作。</p>
+                        <a class="btn mt79">详情>></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
 
         <!-- foot模块 -->
-        <div class="list_2">
+        <div class="foot_wrap">
             <div class="foot">
                 <div class="a_wrap">
                     <a>友情链接</a>
@@ -66,47 +107,13 @@
                 </div>
                 <div class="mt30">办公电话：010-53828991</div>
                 <div class="mt20">办公地址：北京海淀区西三环北路 87 号国际财经中心 D 座 701 室</div>
-                <div class="mt20">Copyright _ <a href="http://www.rdzbnx.com">www.rdzbnx.com</a> Inc . All Rights Reserved 融道知变财务咨询有限公司 版权所有 . 滇ICP备19002372号</div>
+                <div class="mt20">Copyright _
+                    <a href="http://www.rdzbnx.com">www.rdzbnx.com</a> Inc . All Rights Reserved 融道知变财务咨询有限公司 版权所有 . 滇ICP备19002372号</div>
             </div>
         </div>
     </div>
     <script src="./js/jquery-1.11.3.min.js"></script>
-    <script>
-         // 兼容pc页面和手机页面时不同的效果
-        //  $(document).ready(function () {
-        //     if (navigator.userAgent.match(/Android/i)
-        //         || navigator.userAgent.match(/webOS/i)
-        //         || navigator.userAgent.match(/iPhone/i)
-        //         || navigator.userAgent.match(/iPad/i)
-        //         || navigator.userAgent.match(/iPod/i)
-        //         || navigator.userAgent.match(/BlackBerry/i)
-        //         || navigator.userAgent.match(/Windows Phone/i)
-        //     ) {
-        //         // alert("这是手机页面");
-        //         $('.list_1 .wrap .right').css('overflow-y', 'scroll')
-        //         $('.list_1').css('margin-top', '110px')
-        //         $('.list_1').css('margin-bottom', '110px')
-        //         $('.list_1 .wrap .right h3').css('font-size','22px')
-        //         $('.list_1 .wrap .right p').css('font-size','18px')
-        //         $('.list_1 .wrap .left .left_item a').css('font-size','18px')
-        //         $('.foot').css({'width':'1000px','padding':'0 100px'}) 
-        //     } else {
-        //         $(window).scroll(function () {
-        //             var s = $(window).scrollTop();
-        //             // console.log(s)
-        //             if (s > 299) {
-        //                 $('.list_1 .wrap .right').css('overflow-y', 'scroll')
-        //             } else {
-        //                 $('.list_1 .wrap .right').css('overflow-y', 'hidden')
-        //             }
-        //         });
-        //     }
-        //     // iphone字体左移一点
-        //     if (navigator.userAgent.match(/iPhone/i)) {
-        //         $('.list_1 .wrap .right p').css('width','800px')
-        //     }
-        // });
-    </script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
