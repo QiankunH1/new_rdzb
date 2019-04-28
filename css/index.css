@@ -1,5 +1,7 @@
 
 .all{
+    letter-spacing: 0.6px;
+    font-size: 16px;
 }
 /* 头部导航样式 */
 .nav{
@@ -33,10 +35,9 @@
     margin-left: 100px;
     line-height: 80px;
 }
-.logo img {
-
-    height: 30px;
-}
+/* .logo img {
+    height: 24px;
+} */
 .head ul{
     width: 830px;
 }
@@ -51,7 +52,7 @@
 .nav ul a p{
     display: inline-block;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
 }
 .nav ul a p:hover{
     color:#ffb882;
@@ -59,8 +60,8 @@
 /* banner模块*/
 .banner{
     width: 100%;
-    height: 410px;
-    background:url("../img/course_banner.png") no-repeat center;
+    height: 760px;
+    background:url("../img/index/banner.png") no-repeat center;
     overflow: hidden;
 }
 
@@ -77,8 +78,8 @@
 }
 .list_1 .content h3{
     font-weight: normal;
-    font-size: 26px;
-    color: #333;
+    font-size: 32px;
+    color: #323948;
     margin-top: 70px;
 }
 .h_line{
@@ -87,12 +88,12 @@
     margin: 15px auto 0px;
     background-color: #b39b66
 }
-.list_1 ul{
+.list_1 .item_wrap{
     height: 424px;
     margin-top: 80px;
     /* background-color: #888; */
 }
-.list_1 ul li{
+.list_1 .item_wrap .item{
     width: 242px;
     padding-left: 32px;
     padding-right: 22px;
@@ -102,31 +103,38 @@
     color: #888;
     /* background-color: yellowgreen; */
 }
-.list_1 ul li h4{
+.list_1 .item_wrap .item h4{
     font-weight: normal;
     font-size: 18px;
     margin: 45px 0 30px;
     color: #666;
 }
-.list_1 ul li p{
+.list_1 .item_wrap .item p{
     font-size: 14px;
-    line-height: 2;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #999;
 }
 .list_1 .btn{
-    width: 150px;
+    display: block;
+    width: 147px;
     height: 50px;
-    margin-top: 95px;
+    margin-top: 105px;
+    color: #999;
     background-color: #e4e4e4;
-    /* background-color: rgb(118, 149, 250); */
+    font-size: 14px;
     line-height: 50px;
     text-align: center;
     border-radius: 4px;
     cursor: pointer;
 }
+.list_1 .btn.mt79{
+    margin-top: 79px;
+}
 .list_1 .btn:hover{
     background-color: #f0f0f0;
 }
-.s_line{
+.list_1 .item_wrap .s_line{
     width: 2px;
     height: 405px;
     line-height: 424px;
@@ -138,12 +146,190 @@
 }
 
 
+.list_2{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+}
+.list_2 .content{
+    height: 854px;
+    overflow: hidden;
+}
+.list_2 .content h3{
+    font-weight: normal;
+    font-size: 32px;
+    color: #323948;
+    margin-top: 70px;
+}
+.list_2 .ul_wrap{
+    margin-top: 45px;
+    padding: 0 20px;
+    position: relative;  
+}
+.list_2 .ul_wrap .list2_bg{
+    position: absolute;
+    left: 300px;
+    top: 15px;
+    width: 588px;
+    height: 500px;
+    background:url("../img/index/1-05.png") no-repeat center;
+}
+.list_2 ul.fl{
+    margin-left: 20px;
+}
+.list_2 ul.fr{
+    margin-right: 20px;
+}
+.list_2 li {
+    width: 304px;
+    text-align: left;
+    margin-bottom: 80px;
+}
+.list_2 li h4{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #333;
+}
+.list_2 li p{
+    color: #666;
+    letter-spacing: 1px;
+    line-height: 27px;
+    
+}
+.list_2 .pr50{
+    width: 250px;
+padding-right: 50px;
+}
+.list_2 li.wth250{
+width: 250px;
+}
+.list_2 li.ml80{
+    margin-left: 80px;
+}
+
+
+.list_3{
+    width: 100%;
+    margin: 0 auto;
+    background:url("../img/index/1-06.png") no-repeat center;
+}
+.list_3 .content{
+    height: 730px;
+    overflow: hidden;
+    color: #fff;
+}
+.list_3 .content h3{
+    font-weight: normal;
+    font-size: 32px;
+    /* color: #fff; */
+    margin-top: 70px;
+}
+.list_3 .item_wrap{
+    height: 440px;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.list_3 .item_wrap .item_l{
+    width: 256px;
+    padding-left: 46px;
+}
+.list_3 .item_wrap h4{
+    margin-top: 40px;
+    width: 170px;
+    height: 42px;
+    background-color: #d2b069;
+    text-align: center;
+    line-height: 42px;
+    font-weight: normal;
+    margin-bottom: 42px;
+    letter-spacing: 2px;
+}
+.list_3 .item_wrap .item_l ul{
+    padding-left: 24px;
+}
+.list_3 .item_wrap .item_l li{
+    margin-bottom: 55px;
+}
+.list_3 .s_line{
+    width: 1px;
+    height: 430px;
+    line-height: 440px;
+    vertical-align: top;
+    margin-top: 5px;
+    /* vertical-align: middle; */
+    background-color: #fff;
+}
+.list_3 .item_r .title{
+margin-left: 88px;
+height: 40px;
+line-height: 40px;
+font-size: 24px;
+margin-top: 30px;
+}
+.list_3 .item_r .title .icon{
+    width: 34px;
+    height: 40px;
+    background:url("../img/index/1-08.png") no-repeat center;
+}
+.list_3 .item_r .title .text{
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+    margin-left: 17px;
+    letter-spacing: 3px;
+}
+.list_3 .item_r ul{
+    margin-left: 94px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    line-height: 34px;
+}
+.list_3 .item_r ul .btn{
+    width: 181px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+    background-color: rgba(8, 21, 48, 0.83);
+    margin-top: 17px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.list_3 .item_r ul .btn:hover{
+    background-color: rgba(38, 64, 117, 0.83);
+}
 
 
 
 
 
-
+.list_4{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.list_4 .content{
+    height: 900px;
+    overflow: hidden;
+    color: #333;
+}
+.list_4 .content h3{
+    font-weight: normal;
+    font-size: 32px;
+    /* color: #fff; */
+    margin-top: 70px;
+}
+.list_4 .kh_bg{
+    width: 1191px;
+    height: 605px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background:url("../img/index/1-07.png") no-repeat center;
+}
 
 
 
