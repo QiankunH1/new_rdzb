@@ -1,6 +1,5 @@
 $(document).ready(function () {
     animated();
-    // hover()
 });
 function animated(){
     var a, b, c;
@@ -101,33 +100,3 @@ function animated(){
     });
 }
 
-function hover(){
-    var img = $('.list_1 .item img')
-    $.each(img,function(i,item){
-        $(item).mouseover(function(){
-            rotate ()
-          });
-        $(item).mouseout(function(){
-            rotate ()
-          });
-    })
-}
-
-
-function rotate () {
-    console.log('1')
-    var rotateVal = 0 // 旋转角度
-    var InterVal // 定时器
-    InterVal = setInterval(function () {
-        var img = $('.list_1 .item img')
-        rotateVal += 2
-        // console.log(img)
-        $.each(img,function(i,item){
-            // 设置旋转属性(顺时针)
-            item.style.transform = 'rotate(' + rotateVal + 'deg)'
-            // 设置旋转时的动画  匀速0.1s
-            item.style.transition = '0.1s linear' 
-        })
-     
-    }, 10)
-}
