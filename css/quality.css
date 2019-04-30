@@ -2,6 +2,7 @@
 .all{
     letter-spacing: 0.6px;
     font-size: 16px;
+    position: relative;
     color: #333;
 }
 
@@ -64,7 +65,7 @@
 .banner{
     width: 100%;
     height: 580px;
-    background:url("../img/course/3-banner.png") no-repeat center;
+    background:url("../img/quality/4-banner.png") no-repeat center;
     overflow: hidden;
 }
 
@@ -76,7 +77,7 @@
     background-color: #fff;
 }
 .list_1 .content{
-    height: 510px;
+    height: 550px;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -94,40 +95,170 @@
     background-color: #b39b66
 }
 .list_1 .container{
-    margin-top: 57px;
+    margin-top: 12px;
+    height: 354px;
+    overflow: hidden;
+    background:url("../img/quality/4-01.png") no-repeat right;
 }
-.list_1 .container .item{
-    width: 238px;
-    height: 258px;
-    float: left;
-    margin-left: -1px;
-    border: solid 1px #ede2c9;
+.list_1 .container h4{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
-.list_1 .container .item.first{
-    margin-left: 0px;
-}
-.list_1 .container .item img{
-    margin-top: 70px;
-    margin-bottom: 35px;
-}
-.list_1 .container .item div{
-    font-size: 18px;
+.list_1 .container p{
+    width: 756px;
+    padding: 0 20px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 26px;
+    /* color: #fff; */
     letter-spacing: 1px;
+    margin-bottom: 35px;
+    color: #666;
 }
-
 
 .list_2{
     width: 100%;
+    /* height: 539px; */
     margin: 0 auto;
-    background:url("../img/course/3-28.png") no-repeat center;
+  
 }
-.list_2 .content{
-    height: 768px;
+.list_2 .content{ 
+    position: relative; 
+    height: 539px;
+    width: 1200px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+.list_2 .l_bg{
+    position: absolute;
+    width: 553px;
+    height: 539px;
+    top: 0px;
+    left: -360px;
+    z-index: -2;
+    background:url("../img/quality/4-2.png") no-repeat right;
+}
+.list_2 .r_bg{
+    position: absolute;
+    z-index: -1;
+    width: 1560px;
+    height: 495px;
+    left: 0;
+    top: 25px;
+    background:#2a3655;
+}
+
+.list_2 .container{
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    margin-top: 95px;
+    text-align: left;
+}
+.list_2 .container .l_wrap{
+    width: 480px;
+    padding-left: 100px;
+}
+.list_2 .container .l_wrap p{
+    font-size: 14px;
+    line-height: 27px;
+    /* color: #666; */
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+/* 解决x5内核字体放大问题 */
+.list_2 .container .l_wrap p{
+    max-height: 1000000px;
+}
+.list_2 .container .l_wrap p::before,.list_2 .container .l_wrap p::after{
+    max-height: 1000000px;
+}
+.list_2 .container .r_wrap{
+    width:493px;
+    margin-left: 80px;
+    font-size: 14px; 
+}
+.list_2 .container .r_wrap .job{
+    width: 280px;
+    height: 27px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    line-height: 27px;
+    font-size: 16px;
+    text-align: center;
+    color: #d2b474;
+	border: solid 1px #d2b474;
+}
+.list_2 .r_wrap .member{
+    margin: 15px 0;
+}
+.list_2 .r_wrap .member .name{
+    width: 58px;
+}
+.list_2 .r_wrap .member .dec{
+    width: 400px;
+}
+.mb20{
+    margin-bottom: 15px;
+}
+
+
+
+.list_3{
+    width: 100%;
+    /* height: 539px; */
+    margin: 0 auto;
+  
+}
+.list_3 .content{ 
+    position: relative; 
+    height: 539px;
+    width: 1200px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+
+.list_3 .content .l_wrap{
+    width: 533px;
+    height: 539px;
+    background:url("../img/quality/4-5.png") no-repeat center;
+}
+.list_3 .content .r_wrap{
+    width: 600px;
+    margin-left: 50px;
+    /* background-color: #eee; */
+    text-align: left;
+}
+.list_3 .content .r_wrap h4{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 170px;
+    margin-bottom: 40px;
+}
+.list_3 .content .r_wrap p{
+    font-size: 14px;
+    line-height: 27px;
+    color: #666;
+}
+
+
+.list_4{
+    width: 100%;
+    margin: 0 auto;
+    background:url("../img/quality/4-6.png") no-repeat center;
+}
+.list_4 .content{
+    height: 996px;
     overflow: hidden;
     margin: 0 auto;
     color: #fff;
+
 }
-.list_2 .content h3{
+.list_4 .content h3{
     font-weight: normal;
     font-size: 32px;
     color: #fff;
@@ -140,12 +271,14 @@
     margin: 15px auto 0px;
     background-color: #b39b66
 }
-.list_2 .content p{
-    /* padding: 0 28px; */
+.list_4 .container p{   
+    padding: 0 20px;
     margin-top: 34px;
-    line-height: 32px;
-    letter-spacing: 2px;
+    line-height: 28px;
+	letter-spacing: 1px;
 }
+
+
 
 
 /* foot模块 */

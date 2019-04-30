@@ -3,6 +3,7 @@
     letter-spacing: 0.6px;
     font-size: 16px;
     color: #333;
+    position: relative;
 }
 
 /* 头部导航样式 */
@@ -109,6 +110,13 @@
     letter-spacing: 1px;
     margin-bottom: 35px;
 }
+/* 解决x5内核字体放大问题 */
+.list_1 .container .l_wrap p{
+    max-height: 1000000px;
+}
+.list_1 .container .l_wrap p::before,.list_1 .container .l_wrap p::after{
+    max-height: 1000000px;
+}
 .list_1 .container .r_wrap{
     width:493px;
     margin-left: 80px;
@@ -176,6 +184,13 @@
     color: #fff;
     letter-spacing: 1px;
     margin-bottom: 35px;
+}
+/* 解决x5内核字体放大问题 */
+.list_2 .container .l_wrap p{
+    max-height: 1000000px;
+}
+.list_2 .container .l_wrap p::before,.list_2 .container .l_wrap p::after{
+    max-height: 1000000px;
 }
 .list_2 .container .l_wrap h4{
     font-size: 16px;
