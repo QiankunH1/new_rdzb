@@ -64,7 +64,7 @@
 .banner{
     width: 100%;
     height: 580px;
-    background:url("../img/course/3-banner.png") no-repeat center;
+    background:url("../img/about/5-banner.png") no-repeat center;
     overflow: hidden;
 }
 
@@ -73,12 +73,13 @@
 .list_1{
     width: 100%;
     margin: 0 auto;
-    background-color: #fff;
+    background:url("../img/about/5-1.png") no-repeat center;
 }
 .list_1 .content{
-    height: 510px;
+    height: 646px;
     overflow: hidden;
     margin: 0 auto;
+
 }
 .list_1 .content h3{
     font-weight: normal;
@@ -94,38 +95,59 @@
     background-color: #b39b66
 }
 .list_1 .container{
-    margin-top: 57px;
+    margin-top: 45px;
+    text-align: left;
 }
-.list_1 .container .item{
-    width: 238px;
-    height: 258px;
-    float: left;
-    margin-left: -1px;
-    border: solid 1px #ede2c9;
+.list_1 .container .l_wrap{
+    width: 600px;
+    padding: 10px;
 }
-.list_1 .container .item.first{
-    margin-left: 0px;
-}
-.list_1 .container .item img{
-    margin-top: 70px;
+.list_1 .container .l_wrap p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    letter-spacing: 1px;
     margin-bottom: 35px;
 }
-.list_1 .container .item div{
-    font-size: 18px;
-    letter-spacing: 1px;
+.list_1 .container .r_wrap{
+    width:493px;
+    margin-left: 80px;
+    font-size: 14px; 
 }
+.list_1 .container .r_wrap .job{
+    width: 125px;
+    height: 27px;
+    margin-top: 20px;
+    line-height: 27px;
+    font-size: 16px;
+    text-align: center;
+    color: #d2b474;
+	border: solid 1px #d2b474;
+}
+.list_1 .r_wrap .member{
+    margin: 20px 0;
+}
+.list_1 .r_wrap .member .name{
+    width: 58px;
+}
+.list_1 .r_wrap .member .dec{
+    width: 400px;
+}
+
 
 
 .list_2{
     width: 100%;
     margin: 0 auto;
-    background:url("../img/course/3-28.png") no-repeat center;
+    background:url("../img/about/5-2.png") no-repeat center;
 }
 .list_2 .content{
-    height: 768px;
+    height: 691px;
     overflow: hidden;
     margin: 0 auto;
     color: #fff;
+    font-size: 14px;
+
 }
 .list_2 .content h3{
     font-weight: normal;
@@ -140,12 +162,104 @@
     margin: 15px auto 0px;
     background-color: #b39b66
 }
-.list_2 .content p{
-    /* padding: 0 28px; */
-    margin-top: 34px;
-    line-height: 32px;
+.list_2 .container{
+    margin-top: 45px;
+    text-align: left;
+}
+.list_2 .container .l_wrap{
+    width: 600px;
+    padding: 10px;
+}
+.list_2 .container .l_wrap p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+.list_2 .container .l_wrap h4{
+    font-size: 16px;
+    margin-bottom: 12px;
+    font-weight: normal;
+}
+.list_2 .container .l_wrap .text{
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.list_2 .container .r_wrap{
+    width:493px;
+    margin-left: 80px;
+    font-size: 14px; 
+}
+.list_2 .container .r_wrap .job{
+    width: 280px;
+    height: 27px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    line-height: 27px;
+    font-size: 16px;
+    text-align: center;
+    color: #d2b474;
+	border: solid 1px #d2b474;
+}
+.list_2 .r_wrap .member{
+    margin: 20px 0;
+}
+.list_2 .r_wrap .member .name{
+    width: 58px;
+}
+.list_2 .r_wrap .member .dec{
+    width: 400px;
+}
+
+
+.list_3{
+    width: 100%;
+    margin: 0 auto;
+    background:url("../img/about/5-3.png") no-repeat center;
+}
+.list_3 .content{
+    height: 584px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.list_3 .content h3{
+    font-weight: normal;
+    font-size: 32px;
+    color: #323948;
+    margin-top: 60px;
     letter-spacing: 2px;
 }
+.h_line{
+    width: 82px;
+    height: 4px;
+    margin: 15px auto 0px;
+    background-color: #b39b66
+}
+
+
+.list_3 .container{
+    margin-top: 45px;
+    text-align: left;
+}
+.list_3 .container .text_wrap{
+    width: 600px;
+    padding: 10px;
+}
+.list_3 .container .text_wrap p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+
+
+
 
 
 /* foot模块 */
