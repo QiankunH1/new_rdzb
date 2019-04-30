@@ -1,0 +1,196 @@
+
+.all{
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* 头部导航样式 */
+
+.nav{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    /* box-shadow:0px -1px 1px rgb(160, 160, 160) inset; */
+}
+
+.mc{
+    position: absolute;
+    height: 80px;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: .1;
+    filter:alpha(opacity=10);
+    z-index: 98;
+}
+.head{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+    
+}
+.logo{
+    margin-left: 100px;
+    line-height: 80px;
+}
+/* .logo img {
+    height: 24px;
+} */
+.head ul{
+    width: 830px;
+}
+
+.nav ul a{
+    float: left;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    margin: 0 30px; 
+}
+.nav ul a p{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+}
+.nav ul a p:hover{
+    color:#ffb882;
+}
+/* banner模块*/
+.banner{
+    width: 100%;
+    height: 580px;
+    background:url("../img/course/3-banner.png") no-repeat center;
+    overflow: hidden;
+}
+
+
+/* 内容模块 */
+.list_1{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.list_1 .content{
+    height: 510px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.list_1 .content h3{
+    font-weight: normal;
+    font-size: 32px;
+    color: #323948;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+.h_line{
+    width: 82px;
+    height: 4px;
+    margin: 15px auto 0px;
+    background-color: #b39b66
+}
+.list_1 .container{
+    margin-top: 57px;
+}
+.list_1 .container .item{
+    width: 238px;
+    height: 258px;
+    float: left;
+    margin-left: -1px;
+    border: solid 1px #ede2c9;
+}
+.list_1 .container .item.first{
+    margin-left: 0px;
+}
+.list_1 .container .item img{
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+.list_1 .container .item div{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+
+.list_2{
+    width: 100%;
+    margin: 0 auto;
+    background:url("../img/course/3-28.png") no-repeat center;
+}
+.list_2 .content{
+    height: 768px;
+    overflow: hidden;
+    margin: 0 auto;
+    color: #fff;
+}
+.list_2 .content h3{
+    font-weight: normal;
+    font-size: 32px;
+    color: #fff;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+.h_line{
+    width: 82px;
+    height: 4px;
+    margin: 15px auto 0px;
+    background-color: #b39b66
+}
+.list_2 .content p{
+    /* padding: 0 28px; */
+    margin-top: 34px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+
+
+/* foot模块 */
+.foot_wrap{
+    width: 100%;
+    min-width: 1200px;
+    /* height: 246px; */
+    overflow: hidden;
+    background-color: #373d41;
+}
+.foot{
+    width: 1200px;
+    margin: 0 auto;
+    height: 286px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #ddd;
+}
+.foot .a_wrap{
+    margin-top: 40px;
+}
+.foot a{
+    color: #ddd;
+    display:inline-block;
+    margin-right: 60px;
+}
+.foot a:hover{
+    color: #ffc15f;
+}
+.foot .foot_line{
+    width: 100%;
+    height: 1px;
+    background-color: #666;
+    margin-top: 30px;
+}
+.foot .mt30{
+    margin-top: 30px;
+}
+.foot .mt20{
+    margin-top: 20px;
+}
+.foot .mt20 a{
+    color: #fff;
+    display:inline-block;
+    margin-right: 0px;
+}
+
