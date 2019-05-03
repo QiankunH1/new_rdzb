@@ -156,6 +156,8 @@
     position: absolute;
     color: #fff;
     z-index: 2;
+    top: 0;
+    left: 0;
     margin-top: 95px;
     text-align: left;
 }
@@ -271,16 +273,58 @@
     margin: 15px auto 0px;
     background-color: #b39b66
 }
-.list_4 .container p{   
+.list_4 .container .p{   
     padding: 0 20px;
     margin-top: 34px;
     line-height: 28px;
 	letter-spacing: 1px;
 }
-
-
-
-
+.list_4 .container .wrap{
+    position: relative;
+    margin-top: 70px;
+}
+.list_4 .container .top_wrap{
+    height: 470px;
+}
+.list_4 .l_box{
+    text-align: right;
+}
+.list_4 .r_box{
+    text-align: left;
+}
+.list_4 .l_box div,.list_4 .r_box div{
+    width: 340px;
+    font-size: 14px;
+    margin-top: 45px;
+    margin-bottom: 90px;
+}
+.list_4 .bottom_wrap{
+    width: 472px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 14px;
+}
+.list_4 .bottom_wrap h4{
+    text-align: center;
+}
+.list_4 .container h4{
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.list_4 .container .top_wrap p,.list_4 .container .bottom_wrap p {
+    line-height: 28px;
+} 
+.list_4 .container .center{
+    background:url("../img/quality/4-7.png") no-repeat center;
+    width: 470px;
+    height: 376px;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    margin-left: -235px;
+}
 /* foot模块 */
 .foot_wrap{
     width: 100%;
