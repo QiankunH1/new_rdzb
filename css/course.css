@@ -141,12 +141,338 @@
     margin: 15px auto 0px;
     background-color: #b39b66
 }
-.list_2 .content p{
+.list_2 .content .p{
     /* padding: 0 28px; */
     margin-top: 34px;
     line-height: 32px;
     letter-spacing: 2px;
 }
+
+
+/* 轮播图 */
+.list_2 .container{
+    position: relative;
+    width: 1200px;
+    height: 387px;
+    margin: 0 auto;
+    margin-top: 75px;
+    /* background-color: #666; */
+}
+.swiper-container {
+    width: 1034px;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #cdb177;
+    width: 400px;
+    /* height: 387px; */
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    transition: 300ms;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .swiper-slide:not(.swiper-slide-active){
+    transform: scale(0.8);
+  }
+  .container .swiper-button-prev{
+    background: url('../img/course/3-13.png');
+    position: absolute;
+    top: 50%;
+    width: 38px;
+    height: 68px;
+    /* left: -20px; */
+    margin-left: 20px;
+    margin-top: -34px;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 38px 68px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ .container .swiper-button-next {
+    background: url('../img/course/3-12.png');
+    position: absolute;
+    top: 50%;
+    width: 38px;
+    height: 68px;
+    /* left: -20px; */
+    margin-right:  20px;
+    margin-top: -34px;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 38px 68px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.list_2 .item{
+    width: 100%;
+    height: 100%;
+    color: #f8f8f8;
+}
+.list_2 .item img{
+    margin-top: 38px;
+}
+.list_2 .item h4{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 15px 0px;
+    letter-spacing: 2px;
+}
+
+.list_2 .item p{
+    text-align: left;
+    font-size: 14px;
+    line-height: 26px;
+    padding-left: 60px;
+    letter-spacing: 1px;
+}
+
+
+.list_3{
+    width: 100%;
+    margin: 0 auto;
+    background:url("../img/course/3-15.png") no-repeat center;
+}
+.list_3 .content{
+    height: 686px;
+    overflow: hidden;
+    margin: 0 auto;
+    color: #333;
+}
+.list_3 .content h3{
+    font-weight: normal;
+    font-size: 32px;
+    color: #333;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+.h_line{
+    width: 82px;
+    height: 4px;
+    margin: 15px auto 0px;
+    background-color: #b39b66
+}
+.list_3 .content .p{
+    /* padding: 0 28px; */
+    margin-top: 34px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+.list_3 .content .container {
+    margin-top: 50px;
+}
+.list_3 .content .container .l{
+    width: 386px;
+    height: 317px;
+    margin-top: 20px;
+    background:url("../img/course/3-14.png") no-repeat center;
+}
+.list_3 .content .container .r{
+    width: 741px;
+    height: 348px;
+    margin-left: 70px;
+    background:url("../img/course/3-16.png") no-repeat center;
+}
+
+.list_4{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.list_4 .content{
+    height: 430px;
+    overflow: hidden;
+    margin: 0 auto;
+    color: #333;
+}
+.list_4 .content h3{
+    font-weight: normal;
+    font-size: 32px;
+    color: #333;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+.h_line{
+    width: 82px;
+    height: 4px;
+    margin: 15px auto 0px;
+    background-color: #b39b66
+}
+.list_4 .content .container{
+    height: 287px;
+    margin-top: 10px;
+    position: relative;
+    background:url("../img/course/3-17.png") no-repeat right;
+}
+.list_4  .container .text_wrap{
+    width: 604px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 26px;
+    overflow: hidden;
+}
+.list_4  .container .text_wrap p{
+    margin-top: 30px;
+}
+
+.list_4 .content .container .place_1{
+    position: absolute;
+    right: 380px;
+    top: 100px;
+}
+.list_4 .content .container .place_2{
+    position: absolute;
+    right: 252px;
+    top:80px;
+}
+.list_4 .content .container .place_3{
+    position: absolute;
+    right: 42px;
+    top:100px;
+}
+.list_4 .content .container  .text{
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+
+.list_5{
+    width: 100%;
+    margin: 0 auto;
+    background:url("../img/course/3-19.png") no-repeat center;
+}
+.list_5 .content{
+    height: 851px;
+    overflow: hidden;
+    margin: 0 auto;
+    color: #fff;
+}
+.list_5 .content h3{
+    font-weight: normal;
+    font-size: 32px;
+    color: #fff;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+.h_line{
+    width: 82px;
+    height: 4px;
+    margin: 15px auto 0px;
+    background-color: #b39b66
+}
+.list_5 .content .container{
+    margin-top: 48px;
+}
+/* 左侧导航 */
+.list_5 .content .title{
+    width: 236px;
+    height: 533px;
+    padding-top: 20px;
+    font-size: 14px;
+    border-right: 2px solid #667080;
+}
+.list_5 .content .title li{
+    font-size: 14px;
+    height: 36px;
+    text-align: right;
+    width: 205px;
+    padding: 25px 30px;
+    padding-left: 0px;
+    margin-bottom: 22px;
+    cursor: pointer;
+    color: #dfe3ee;
+}
+.list_5 .content .title li.active{
+    background-color: #282f42;
+    border-right: 4px solid #e4cb94;
+    color: #e4cb94;
+}
+
+/* 右侧内容 */
+.list_5 .content .dec{
+    width: 912px;
+    margin-left: 42px;
+    /* background-color: #666; */
+    height: 553px;
+    text-align: left;
+}
+.list_5 .content .dec .item{
+    display: none;
+}
+.list_5 .content .dec .item.active{
+    display: block;
+}
+.list_5 .content .dec .item h4{
+    font-weight: normal;
+    margin-top: 35px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.list_5 .content .dec .item .ul_wrap{
+    margin-top: 25px;
+}
+.list_5 .content .dec .item ul{
+    width: 330px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #ddd;
+}
+.list_5 .content .dec .item .first_ul{
+    margin-right: 100px;
+}
+.list_5 .content .dec .item .x_line{
+    width: 100%;
+    height: 0px;
+    margin-top: 30px;
+    border-bottom: 1px dashed #ddd;
+}
+.list_5 .content .dec .item p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #ddd;
+    margin: 10px 0px;
+}
+
+
+.list_6{
+    width: 100%;
+    margin: 0 auto;
+}
+.list_6 .content{
+    height: 916px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.list_6 .content h3{
+    font-weight: normal;
+    font-size: 32px;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+.h_line{
+    width: 82px;
+    height: 4px;
+    margin: 15px auto 0px;
+    background-color: #b39b66
+}
+
+
 
 
 /* foot模块 */
