@@ -471,6 +471,7 @@
    cursor: pointer;
 }
 .list_6 .content .item.active{
+    color: #c1a467;
     border-bottom: 4px solid #d2b474;
 }
 .list_6 .content .item  img{
@@ -515,6 +516,7 @@
    
 }
 .list_8 .content .item.active{
+    color: #c1a467;
     border-top: 4px solid #d2b474;
 }
 .list_8 .content .item  img{

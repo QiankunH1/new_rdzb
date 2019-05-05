@@ -1,6 +1,7 @@
 $(document).ready(function () {
     animated();
     changetab();
+    tab();
 });
 function animated(){
     var a, b, c;
@@ -38,4 +39,20 @@ function changetab(){
     　　　　var index = $(this).index();
     $(".list_5 .content .dec .item").removeClass("active").eq(index).addClass("active")
     　　});
+}
+function tab(){
+    $(".list_6 .container .item").click(function (){
+    　　　　//获取点击的元素给其添加样式，讲其兄弟元素的样式移除
+    $(".list_8 .content .item").removeClass("active");
+    　　　　$(this).addClass("active").siblings().removeClass("active");
+    　　　　//获取选中元素的下标
+    　　　　var index = $(this).index();
+    });
+    $(".list_8 .content .item").click(function (){
+    　　　　//获取点击的元素给其添加样式，讲其兄弟元素的样式移除
+         $(".list_6 .container .item").removeClass("active");
+    　　　　$(this).addClass("active").siblings().removeClass("active");
+    　　　　//获取选中元素的下标
+    　　　　var index = $(this).index();
+    });
 }
