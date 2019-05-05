@@ -455,8 +455,7 @@
     margin: 0 auto;
 }
 .list_6 .content{
-    height: 916px;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0 auto;
 }
 .list_6 .content h3{
@@ -465,13 +464,66 @@
     margin-top: 60px;
     letter-spacing: 2px;
 }
+.list_6 .content .item{
+    width: 295px;
+    float: left;
+    padding: 40px 0px;
+   cursor: pointer;
+}
+.list_6 .content .item.active{
+    border-bottom: 4px solid #d2b474;
+}
+.list_6 .content .item  img{
+    width: 60px;
+    height: 68px;
+}
+.list_6 .content .item .name{
+    margin-top: 50px;
+}
 .h_line{
     width: 82px;
     height: 4px;
     margin: 15px auto 0px;
     background-color: #b39b66
 }
+.list_7{
+    width: 100%;
+    margin: 0 auto;
+    background-color:#fdfbf6; 
+}
+.list_7 .content{
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
 
+.list_8{
+    width: 100%;
+    margin: 0 auto;
+}
+.list_8 .content{
+    height: 254px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.list_8 .content .item{
+    width: 295px;
+    float: left;
+    padding: 40px 0px;
+    cursor: pointer;
+   
+}
+.list_8 .content .item.active{
+    border-top: 4px solid #d2b474;
+}
+.list_8 .content .item  img{
+    width: 60px;
+    height: 68px;
+}
+.list_8 .content .item .name{
+    margin-top: 50px;
+}
 
 
 
