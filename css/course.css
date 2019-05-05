@@ -471,6 +471,7 @@
    cursor: pointer;
 }
 .list_6 .content .item.active{
+    padding: 36px 0px;
     color: #c1a467;
     border-bottom: 4px solid #d2b474;
 }
@@ -524,7 +525,7 @@
     height: 68px;
 }
 .list_8 .content .item .name{
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 

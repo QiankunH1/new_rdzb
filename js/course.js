@@ -47,6 +47,7 @@ function tab(){
     　　　　$(this).addClass("active").siblings().removeClass("active");
     　　　　//获取选中元素的下标
     　　　　var index = $(this).index();
+    // $(".list_6 .content .item .name").css('margin-top','50px').eq(index).css('margin-top','46px')
     });
     $(".list_8 .content .item").click(function (){
     　　　　//获取点击的元素给其添加样式，讲其兄弟元素的样式移除
