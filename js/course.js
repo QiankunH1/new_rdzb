@@ -3,7 +3,7 @@ $(document).ready(function () {
     changetab();
     tab();
 });
-function animated(){
+function animated() {
     var a, b, c;
     a = $(window).height();
     $(window).scroll(function () {
@@ -31,29 +31,27 @@ function animated(){
     });
 }
 
-function changetab(){
-    $(".list_5 .title li").click(function (){
-    　　　　//获取点击的元素给其添加样式，讲其兄弟元素的样式移除
-    　　　　$(this).addClass("active").siblings().removeClass("active");
-    　　　　//获取选中元素的下标
-    　　　　var index = $(this).index();
-    $(".list_5 .content .dec .item").removeClass("active").eq(index).addClass("active")
-    　　});
-}
-function tab(){
-    $(".list_6 .container .item").click(function (){
-    　　　　//获取点击的元素给其添加样式，讲其兄弟元素的样式移除
-    $(".list_8 .content .item").removeClass("active");
-    　　　　$(this).addClass("active").siblings().removeClass("active");
-    　　　　//获取选中元素的下标
-    　　　　var index = $(this).index();
-    // $(".list_6 .content .item .name").css('margin-top','50px').eq(index).css('margin-top','46px')
+function changetab() {
+    $(".list_5 .title li").click(function () {
+        $(this).addClass("active").siblings().removeClass("active");
+        //获取选中元素的下标
+        var index = $(this).index();
+        $(".list_5 .content .dec .item").removeClass("active").eq(index).addClass("active")
     });
-    $(".list_8 .content .item").click(function (){
-    　　　　//获取点击的元素给其添加样式，讲其兄弟元素的样式移除
-         $(".list_6 .container .item").removeClass("active");
-    　　　　$(this).addClass("active").siblings().removeClass("active");
-    　　　　//获取选中元素的下标
-    　　　　var index = $(this).index();
+}
+function tab() {
+    $(".list_6 .container .item").click(function () {
+        $(".list_8 .content .item").removeClass("active");
+        $(this).addClass("active").siblings().removeClass("active");
+        //获取选中元素的下标
+        var index = $(this).index();
+        $(".list_7 .list").removeClass("active").eq(index).addClass("active")
+    });
+    $(".list_8 .content .item").click(function () {
+        $(".list_6 .container .item").removeClass("active");
+        $(this).addClass("active").siblings().removeClass("active");
+        //获取选中元素的下标
+        var index = $(this).index()+4;
+        $(".list_7 .list").removeClass("active").eq(index).addClass("active")
     });
 }
